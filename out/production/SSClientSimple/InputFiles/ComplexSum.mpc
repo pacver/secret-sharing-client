@@ -1,0 +1,5 @@
+r1 = a + b;
+r2 = r1 + r1;
+r3 = r2 + r1;
+r4 = r3 + r2;
+result = r4 + b;
