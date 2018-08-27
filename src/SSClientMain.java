@@ -71,7 +71,7 @@ public class SSClientMain implements SessionRestartListener {
         HashMap<String, BigInteger> secretDefinitions =
             MpcFileParser.getSecretsFromString(secretsInput);
 
-        System.out.println("SSC-INFO: Waiting for participants joining the session...");
+        System.out.println("SSC-INFO: Waiting for participants joining this session...");
         _dealingManager.triggerSessionStart(mpcProgram, secretDefinitions, inputKey);
         System.out.println();
         break;
