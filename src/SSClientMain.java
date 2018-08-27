@@ -100,7 +100,7 @@ public class SSClientMain implements SessionRestartListener {
 
     if (Files.notExists(Paths.get(finalPath))) {
       System.out.println(String.format(
-          "The input file %s does not exist. Session will be cancelled.",
+          "The input file %s does not exist. This session will be cancelled.",
           finalPath));
       onSessionCancelled();
       return "";
